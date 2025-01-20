@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: kargo-demo
 spec:
-  replicas: 
+  replicas: 3
   selector:
     matchLabels:
       app: kargo-demo
